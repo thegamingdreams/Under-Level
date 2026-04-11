@@ -1,11 +1,3 @@
-import Image from "next/image";
-import logo from "./logo.png";
-<img
-  src="/logo.png"
-  alt="Under Level Roofing logo"
-  className="w-full max-h-[320px] object-contain"
-/>
-
 export default function UnderLevelRoofingWebsite() {
   const gallery = [
     {
@@ -115,12 +107,11 @@ export default function UnderLevelRoofingWebsite() {
             <div className="grid gap-5 md:grid-cols-2">
               <div className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/10 shadow-2xl backdrop-blur-xl md:col-span-2">
                 <div className="flex h-72 w-full items-center justify-center bg-white p-6">
-                  <Image
-                    src={logo}
-                    alt="Under Level Roofing logo"
-                    className="h-auto max-h-[240px] w-full object-contain"
-                    priority
-                  />
+  <img
+  src="/logo.png"
+  alt="Under Level Roofing logo"
+  className="h-auto max-h-[240px] w-full object-contain"
+/>
                 </div>
                 <div className="p-6">
                   <p className="text-sm uppercase tracking-[0.28em] text-amber-300">Built on trust</p>
@@ -303,11 +294,11 @@ export default function UnderLevelRoofingWebsite() {
 
             <div className="overflow-hidden rounded-[1.75rem] border border-white/10 bg-white shadow-xl p-6">
               <div className="flex min-h-[280px] items-center justify-center">
-                <Image
-                  src={logo}
-                  alt="Under Level Roofing logo"
-                  className="h-auto max-h-[320px] w-full object-contain"
-                />
+                <img
+  src="/logo.png"
+  alt="Under Level Roofing logo"
+  className="h-auto max-h-[320px] w-full object-contain"
+/>
               </div>
             </div>
           </div>
