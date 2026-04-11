@@ -105,8 +105,23 @@ export default function UnderLevelRoofingWebsite() {
             </div>
 
             <div className="grid gap-5 md:grid-cols-2">
-              <div className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/10 shadow-2xl backdrop-blur-xl md:col-span-2">
-                <div className="flex h-72 w-full items-center justify-center bg-white p-6">
+             <div className="overflow-hidden rounded-[2rem] border border-white/10 bg-gradient-to-br from-slate-900 to-slate-800 shadow-2xl p-6">
+  <div className="flex min-h-[280px] items-center justify-center">
+    <img
+      src="/logo.png"
+      alt="Under Level Roofing logo"
+      className="h-auto max-h-[320px] w-full object-contain drop-shadow-[0_10px_25px_rgba(0,0,0,0.8)]"
+    />
+  </div>
+</div>
+  <div className="flex min-h-[280px] items-center justify-center">
+    <img
+      src="/logo.png"
+      alt="Under Level Roofing logo"
+      className="h-auto max-h-[320px] w-full object-contain drop-shadow-[0_10px_25px_rgba(0,0,0,0.8)]"
+    />
+  </div>
+</div>
   <img
   src="/logo.png"
   alt="Under Level Roofing logo"
