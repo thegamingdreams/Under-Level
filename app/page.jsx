@@ -1,5 +1,8 @@
-import Image from "next/image";
-import logo from "./logo.png";
+<img
+  src="/logo.png"
+  alt="Under Level Roofing logo"
+  className="w-full max-h-[320px] object-contain"
+/>
 
 export default function UnderLevelRoofingWebsite() {
   const gallery = [
