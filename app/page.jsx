@@ -228,6 +228,48 @@ export default function UnderLevelRoofingWebsite() {
         </div>
       </section>
 
+      {/* BACKGROUND MESSAGE SECTION */}
+<section className="relative py-28 text-center">
+
+  {/* Background Image */}
+  <div className="absolute inset-0">
+    <img
+      src="https://tse3.mm.bing.net/th/id/OIP.aJ-qzB9v-kr1Nrq94zEnjAHaEK?rs=1&pid=ImgDetMain&o=7&rm=3"
+      alt="Roof background"
+      className="w-full h-full object-cover"
+    />
+
+    {/* Dark overlay */}
+    <div className="absolute inset-0 bg-black/75" />
+  </div>
+
+  {/* Content */}
+  <div className="relative z-10 max-w-3xl mx-auto px-6">
+
+    <h2 className="text-4xl md:text-5xl font-black text-white">
+      A Company You Can Trust From Start to Finish
+    </h2>
+
+    <p className="mt-6 text-lg md:text-xl text-slate-200 leading-8">
+      We may be a growing company, but we treat every project like it matters — because it does.
+      Your home is important, and we make sure every detail is done right.
+    </p>
+
+    <p className="mt-4 text-lg text-slate-300">
+      From the first call to the final cleanup, we focus on honest work, fair prices,
+      and results you can be proud of.
+    </p>
+
+    <a
+      href="tel:9188009737"
+      className="mt-8 inline-block bg-amber-400 text-black px-8 py-4 rounded-xl font-bold text-lg shadow-xl hover:scale-105 transition"
+    >
+      Call Now: (918) 800-9737
+    </a>
+
+  </div>
+</section>
+
       <section className="mx-auto max-w-7xl px-6 py-16 md:px-10">
         <div className="mb-10 flex flex-col items-center justify-between gap-4 text-center md:flex-row md:text-left">
           <div>
