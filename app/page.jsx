@@ -510,7 +510,7 @@ export default function UnderLevelRoofingWebsite() {
         <div className="grid gap-8 lg:grid-cols-2">
           <div className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/5 shadow-xl">
             <img
-  src="/before.after.roof.3.jpeg"
+  src="/before.after.roof.jpeg"
   alt="Roof before and after example"
   className="h-80 w-full object-cover"
 />
@@ -561,7 +561,7 @@ export default function UnderLevelRoofingWebsite() {
 
           <div className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/5 shadow-xl">
             <img
-  src="/before.after.roof3.jpeg"
+  src="/before.after.roof.3.jpeg"
   alt="Roofing before and after"
   className="h-80 w-full object-cover"
 />
