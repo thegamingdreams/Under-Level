@@ -510,10 +510,10 @@ export default function UnderLevelRoofingWebsite() {
         <div className="grid gap-8 lg:grid-cols-2">
           <div className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/5 shadow-xl">
             <img
-              src="https://tcroofingconstruction.com/wp-content/uploads/2023/02/Bridgeport-Roofer-Before-and-After-3.jpg"
-              alt="Roof before and after example"
-              className="h-80 w-full object-cover"
-            />
+  src="/before.after.roof.jpeg"
+  alt="Roof before and after example"
+  className="h-80 w-full object-cover"
+/>
             <div className="p-6">
               <h3 className="text-2xl font-bold text-white">
                 Before and after roof replacement
@@ -544,9 +544,10 @@ export default function UnderLevelRoofingWebsite() {
 
           <div className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/5 shadow-xl">
             <img
-              src="https://bestroofingrepair.ca/wp-content/uploads/2019/05/roofing-before-after.jpg"
-              alt="Roofing before and after"
-              className="h-80 w-full object-cover"
+  src="/before.after.roof2.jpeg"
+  alt="Roof replacement before and after"
+  className="h-80 w-full object-cover"
+/>
             />
             <div className="p-6">
               <h3 className="text-2xl font-bold text-white">
@@ -561,10 +562,10 @@ export default function UnderLevelRoofingWebsite() {
 
           <div className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/5 shadow-xl">
             <img
-              src="https://www.oldhouseinitiative.com/images/before-after-roof.jpg"
-              alt="Before and after house roof"
-              className="h-80 w-full object-cover"
-            />
+  src="/before.after.roof3.jpeg"
+  alt="Roofing before and after"
+  className="h-80 w-full object-cover"
+/>
             <div className="p-6">
               <h3 className="text-2xl font-bold text-white">
                 Roof upgrade you can see
