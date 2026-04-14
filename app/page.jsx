@@ -264,102 +264,190 @@ export default function UnderLevelRoofingWebsite() {
         </div>
       </section>
 
-      {/* PRODUCTS / SHINGLES */}
-      <section className="mx-auto max-w-7xl px-6 py-16 md:px-10">
-        <div className="mb-10 text-center">
-          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-300">
-            Shingle system we use
+     {/* PRODUCTS / SHINGLES */}
+<section className="mx-auto max-w-7xl px-6 py-16 md:px-10">
+  <div className="mb-10 text-center">
+    <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-300">
+      Shingle systems we use
+    </p>
+    <h2 className="mt-3 text-4xl font-black md:text-5xl">
+      Quality shingles from trusted manufacturers
+    </h2>
+    <p className="mx-auto mt-4 max-w-3xl text-lg leading-8 text-slate-300">
+      We use premium shingle options so homeowners can choose the level of protection,
+      performance, and look that fits their home best.
+    </p>
+  </div>
+
+  <div className="grid gap-8 lg:grid-cols-3">
+    {/* TITAN XT */}
+    <div className="rounded-[2rem] border border-white/10 bg-white/5 p-8 shadow-xl backdrop-blur">
+      <div className="flex min-h-[110px] items-center justify-center">
+        <img
+          src="/titan-xt.png"
+          alt="Titan XT shingles logo"
+          className="h-auto w-full max-w-[260px] object-contain"
+        />
+      </div>
+
+      <h3 className="mt-6 text-3xl font-bold text-white">
+        Titan XT®
+      </h3>
+
+      <p className="mt-4 leading-8 text-slate-200">
+        Titan XT® is one of the strongest options we offer. It is built with an
+        enhanced fastening zone and reinforced nail line to help the roof hold up
+        better in demanding weather.
+      </p>
+
+      <div className="mt-6 space-y-3">
+        <div className="rounded-2xl border border-white/10 bg-slate-950/60 p-4">
+          <p className="text-sm font-semibold uppercase tracking-wide text-amber-300">
+            Impact rating
           </p>
-          <h2 className="mt-3 text-4xl font-black md:text-5xl">
-            Premium architectural shingles with strong performance
-          </h2>
-          <p className="mx-auto mt-4 max-w-3xl text-lg leading-8 text-slate-300">
-            We use premium architectural shingles that are built for durability,
-            flexibility, and a cleaner finished look on the roof.
+          <p className="mt-1 text-slate-300">Class 3 impact rated</p>
+        </div>
+
+        <div className="rounded-2xl border border-white/10 bg-slate-950/60 p-4">
+          <p className="text-sm font-semibold uppercase tracking-wide text-amber-300">
+            Wind warranty
+          </p>
+          <p className="mt-1 text-slate-300">
+            Up to 160 mph, when installed to the manufacturer’s high-wind instructions
           </p>
         </div>
 
-        <div className="grid gap-8 lg:grid-cols-2">
-          <div className="rounded-[2rem] border border-white/10 bg-white/5 p-8 shadow-xl backdrop-blur">
-            <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
-              <img
-                src="/titan-xt.png"
-                alt="Titan XT shingles logo"
-                className="h-auto w-full max-w-[260px] object-contain"
-              />
-              <img
-                src="/stormfighter-flex.png"
-                alt="Stormfighter Flex shingles logo"
-                className="h-auto w-full max-w-[190px] object-contain"
-              />
-            </div>
-
-            <h3 className="mt-8 text-3xl font-bold text-white">
-              Vista® Shingles - Malarkey Roofing Products
-            </h3>
-
-            <p className="mt-4 text-lg leading-8 text-slate-200">
-              Malarkey Vista® shingles are premium architectural shingles built
-              for strong performance and long-term durability.
-            </p>
-
-            <p className="mt-4 text-lg leading-8 text-slate-200">
-              They are designed with polymer-modified asphalt for better
-              flexibility, stronger granule hold, and improved toughness in
-              real weather conditions.
-            </p>
-
-            <p className="mt-4 text-lg leading-8 text-slate-200">
-              They are a high-quality option for homeowners who want a roof
-              that looks beautiful, performs well, and gives more confidence in
-              storms.
-            </p>
-
-            <div className="mt-6 grid gap-4 sm:grid-cols-3">
-              <div className="rounded-2xl border border-white/10 bg-slate-950/60 p-4 text-center">
-                <p className="text-sm font-semibold uppercase tracking-wide text-amber-300">
-                  Stronger hold
-                </p>
-                <p className="mt-2 text-sm text-slate-300">
-                  Better durability and cleaner finish
-                </p>
-              </div>
-              <div className="rounded-2xl border border-white/10 bg-slate-950/60 p-4 text-center">
-                <p className="text-sm font-semibold uppercase tracking-wide text-amber-300">
-                  Flexible build
-                </p>
-                <p className="mt-2 text-sm text-slate-300">
-                  Made to perform better in tough weather
-                </p>
-              </div>
-              <div className="rounded-2xl border border-white/10 bg-slate-950/60 p-4 text-center">
-                <p className="text-sm font-semibold uppercase tracking-wide text-amber-300">
-                  Premium look
-                </p>
-                <p className="mt-2 text-sm text-slate-300">
-                  Architectural style with beautiful color choices
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="rounded-[2rem] border border-white/10 bg-white/5 p-6 shadow-xl backdrop-blur">
-            <img
-              src="/malarkey-colors.jpg"
-              alt="Malarkey shingle colors"
-              className="w-full rounded-[1.5rem] object-cover"
-            />
-            <p className="mt-5 text-lg font-bold text-white">
-              Color options we can help you choose from
-            </p>
-            <p className="mt-3 leading-7 text-slate-300">
-              We can help customers pick a color that fits the home, the trim,
-              and the overall style they want — from darker, richer tones to
-              warmer natural blends.
-            </p>
-          </div>
+        <div className="rounded-2xl border border-white/10 bg-slate-950/60 p-4">
+          <p className="text-sm font-semibold uppercase tracking-wide text-amber-300">
+            Why we like it
+          </p>
+          <p className="mt-1 text-slate-300">
+            Strong fastening design, reinforced nail line, and built for homeowners
+            who want a tougher premium shingle.
+          </p>
         </div>
-      </section>
+      </div>
+    </div>
+
+    {/* STORMFIGHTER FLEX */}
+    <div className="rounded-[2rem] border border-white/10 bg-white/5 p-8 shadow-xl backdrop-blur">
+      <div className="flex min-h-[110px] items-center justify-center">
+        <img
+          src="/stormfighter-flex.png"
+          alt="Stormfighter Flex shingles logo"
+          className="h-auto w-full max-w-[210px] object-contain"
+        />
+      </div>
+
+      <h3 className="mt-6 text-3xl font-bold text-white">
+        StormFighter FLEX®
+      </h3>
+
+      <p className="mt-4 leading-8 text-slate-200">
+        StormFighter FLEX® is a high-performance shingle made for stronger impact
+        resistance and flexibility. It is a great option for customers who want
+        extra confidence in rough weather.
+      </p>
+
+      <div className="mt-6 space-y-3">
+        <div className="rounded-2xl border border-white/10 bg-slate-950/60 p-4">
+          <p className="text-sm font-semibold uppercase tracking-wide text-amber-300">
+            Impact rating
+          </p>
+          <p className="mt-1 text-slate-300">Class 4 impact rated</p>
+        </div>
+
+        <div className="rounded-2xl border border-white/10 bg-slate-950/60 p-4">
+          <p className="text-sm font-semibold uppercase tracking-wide text-amber-300">
+            Wind warranty
+          </p>
+          <p className="mt-1 text-slate-300">
+            Up to 160 mph, with required matching starter and hip & ridge components
+          </p>
+        </div>
+
+        <div className="rounded-2xl border border-white/10 bg-slate-950/60 p-4">
+          <p className="text-sm font-semibold uppercase tracking-wide text-amber-300">
+            Why we like it
+          </p>
+          <p className="mt-1 text-slate-300">
+            Excellent impact resistance, strong seal, and a premium choice for
+            customers who want more storm protection.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    {/* MALARKEY VISTA */}
+    <div className="rounded-[2rem] border border-white/10 bg-white/5 p-8 shadow-xl backdrop-blur">
+      <div className="flex min-h-[110px] items-center justify-center">
+        <img
+          src="/logo.png"
+          alt="Under Level Roofing logo"
+          className="hidden"
+        />
+        <img
+          src="/malarkey-colors.jpg"
+          alt="Malarkey Vista shingle colors"
+          className="h-auto w-full max-w-[250px] rounded-xl object-cover"
+        />
+      </div>
+
+      <h3 className="mt-6 text-3xl font-bold text-white">
+        Vista® Shingles - Malarkey Roofing Products
+      </h3>
+
+      <p className="mt-4 leading-8 text-slate-200">
+        Malarkey Vista® shingles are premium architectural shingles engineered
+        with NEX® polymer-modified asphalt for better durability, stronger granule
+        adhesion, and improved flexibility.
+      </p>
+
+      <div className="mt-6 space-y-3">
+        <div className="rounded-2xl border border-white/10 bg-slate-950/60 p-4">
+          <p className="text-sm font-semibold uppercase tracking-wide text-amber-300">
+            Impact rating
+          </p>
+          <p className="mt-1 text-slate-300">Class 4 impact rated</p>
+        </div>
+
+        <div className="rounded-2xl border border-white/10 bg-slate-950/60 p-4">
+          <p className="text-sm font-semibold uppercase tracking-wide text-amber-300">
+            Wind warranty
+          </p>
+          <p className="mt-1 text-slate-300">
+            110 mph standard wind warranty, up to 130 mph enhanced wind warranty
+          </p>
+        </div>
+
+        <div className="rounded-2xl border border-white/10 bg-slate-950/60 p-4">
+          <p className="text-sm font-semibold uppercase tracking-wide text-amber-300">
+            Why we like it
+          </p>
+          <p className="mt-1 text-slate-300">
+            A premium-looking architectural shingle with strong performance and
+            beautiful color choices at a cost-effective level.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div className="mt-10 rounded-[2rem] border border-white/10 bg-white/5 p-6 shadow-xl backdrop-blur">
+    <h3 className="text-2xl font-bold text-white">Available color options</h3>
+    <p className="mt-3 max-w-3xl leading-7 text-slate-300">
+      We can help you choose a color that fits your home, trim, brick, siding,
+      and overall style — whether you want darker, bolder colors or warmer,
+      more natural blends.
+    </p>
+
+    <img
+      src="/malarkey-colors.jpg"
+      alt="Malarkey shingle color options"
+      className="mt-6 w-full rounded-[1.5rem] object-cover"
+    />
+  </div>
+</section>
 
       {/* REAL RESULTS */}
       <section className="mx-auto max-w-7xl px-6 py-16 md:px-10">
