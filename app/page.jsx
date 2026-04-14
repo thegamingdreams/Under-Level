@@ -185,7 +185,7 @@ export default function UnderLevelRoofingWebsite() {
           </h2>
         </div>
 
-        <div className="grid gap-6 md:grid-cols-4">
+        <div className="grid gap-6 md:grid-cols-5">
           <div className="rounded-[2rem] border border-white/10 bg-white/5 p-8 shadow-xl backdrop-blur">
             <h3 className="text-2xl font-bold text-amber-300">
               Fair pricing
@@ -226,6 +226,16 @@ export default function UnderLevelRoofingWebsite() {
             </p>
           </div>
         </div>
+        <div className="rounded-[2rem] border border-white/10 bg-white/5 p-8 shadow-xl backdrop-blur">
+  <h3 className="text-2xl font-bold text-amber-300">
+    Insurance & financing
+  </h3>
+  <p className="mt-3 leading-7 text-slate-300">
+    We work with insurance claims and can help guide you through the process.
+    We also offer financing options, so you can get the roof you need without
+    stress.
+  </p>
+</div>
       </section>
 
       {/* BACKGROUND MESSAGE SECTION */}
@@ -753,6 +763,104 @@ export default function UnderLevelRoofingWebsite() {
           </p>
         </div>
       </section>
+      {/* FREE ESTIMATE FORM */}
+<section className="mx-auto max-w-5xl px-6 pb-20 md:px-10">
+  <div className="rounded-[2rem] border border-white/10 bg-white/5 p-8 shadow-2xl backdrop-blur">
+    <div className="mb-8 text-center">
+      <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-300">
+        Free estimate form
+      </p>
+      <h2 className="mt-3 text-4xl font-black md:text-5xl">
+        Tell us about your project
+      </h2>
+      <p className="mx-auto mt-4 max-w-3xl text-lg leading-8 text-slate-300">
+        Send us your information and we will get back to you as soon as possible.
+        We can help with roofing, gutters, insurance claims, and financing options.
+      </p>
+    </div>
+
+    <form
+      action="https://formspree.io/f/xqewanod"
+      method="POST"
+      className="grid gap-5 md:grid-cols-2"
+    >
+      <div>
+        <label className="mb-2 block text-sm font-semibold text-slate-200">
+          Full Name
+        </label>
+        <input
+          type="text"
+          name="name"
+          required
+          className="w-full rounded-xl border border-white/10 bg-slate-950/70 px-4 py-3 text-white outline-none transition focus:border-amber-300"
+          placeholder="Your full name"
+        />
+      </div>
+
+      <div>
+        <label className="mb-2 block text-sm font-semibold text-slate-200">
+          Phone Number
+        </label>
+        <input
+          type="tel"
+          name="phone"
+          required
+          className="w-full rounded-xl border border-white/10 bg-slate-950/70 px-4 py-3 text-white outline-none transition focus:border-amber-300"
+          placeholder="Your phone number"
+        />
+      </div>
+
+      <div>
+        <label className="mb-2 block text-sm font-semibold text-slate-200">
+          City
+        </label>
+        <input
+          type="text"
+          name="city"
+          className="w-full rounded-xl border border-white/10 bg-slate-950/70 px-4 py-3 text-white outline-none transition focus:border-amber-300"
+          placeholder="Your city"
+        />
+      </div>
+
+      <div>
+        <label className="mb-2 block text-sm font-semibold text-slate-200">
+          Service Needed
+        </label>
+        <select
+          name="service"
+          className="w-full rounded-xl border border-white/10 bg-slate-950/70 px-4 py-3 text-white outline-none transition focus:border-amber-300"
+        >
+          <option value="Roofing">Roofing</option>
+          <option value="Gutters">Gutters</option>
+          <option value="Roofing and Gutters">Roofing and Gutters</option>
+          <option value="Insurance Claim Help">Insurance Claim Help</option>
+          <option value="Financing">Financing</option>
+        </select>
+      </div>
+
+      <div className="md:col-span-2">
+        <label className="mb-2 block text-sm font-semibold text-slate-200">
+          Message
+        </label>
+        <textarea
+          name="message"
+          rows="5"
+          className="w-full rounded-xl border border-white/10 bg-slate-950/70 px-4 py-3 text-white outline-none transition focus:border-amber-300"
+          placeholder="Tell us a little about your project"
+        ></textarea>
+      </div>
+
+      <div className="md:col-span-2 text-center">
+        <button
+          type="submit"
+          className="rounded-2xl bg-amber-400 px-8 py-4 text-lg font-bold text-slate-950 shadow-xl transition hover:scale-[1.02]"
+        >
+          Request Free Estimate
+        </button>
+      </div>
+    </form>
+  </div>
+</section>
 
       <footer className="border-t border-white/10 bg-slate-950/60 px-6 py-8 text-center text-slate-400">
         <p className="text-lg font-semibold text-white">Under Level Roofing</p>
