@@ -547,7 +547,6 @@ export default function UnderLevelRoofingWebsite() {
   src="/before.after.roof2.jpeg"
   alt="Roof replacement before and after"
   className="h-80 w-full object-cover"
-/>
             />
             <div className="p-6">
               <h3 className="text-2xl font-bold text-white">
