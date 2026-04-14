@@ -49,6 +49,7 @@ export default function UnderLevelRoofingWebsite() {
 
   return (
     <div className="min-h-screen bg-slate-950 text-white">
+      {/* HERO */}
       <section className="relative overflow-hidden border-b border-white/10">
         <div className="absolute inset-0">
           <img
@@ -128,23 +129,21 @@ export default function UnderLevelRoofingWebsite() {
             </div>
 
             <div className="grid gap-5 md:grid-cols-2">
-              <div className="overflow-hidden rounded-[2rem] border border-white/10 bg-gradient-to-br from-slate-900 to-slate-800 shadow-2xl md:col-span-2">
-                <div className="flex h-72 w-full items-center justify-center bg-black p-6">
+              <div className="overflow-hidden rounded-[2rem] border border-white/10 bg-gradient-to-br from-slate-950 to-slate-900 shadow-2xl backdrop-blur-xl md:col-span-2">
+                <div className="flex flex-col items-center justify-center bg-slate-950 px-6 pb-8 pt-10 text-center">
                   <img
                     src="/logo.png"
                     alt="Under Level Roofing logo"
-                    className="h-auto max-h-[240px] w-full object-contain drop-shadow-[0_10px_25px_rgba(0,0,0,0.8)]"
+                    className="h-auto max-h-[230px] w-full object-contain"
                   />
-                </div>
 
-                <div className="p-6">
-                  <p className="text-sm uppercase tracking-[0.28em] text-amber-300">
+                  <p className="mt-8 text-sm uppercase tracking-[0.28em] text-amber-300">
                     Built on trust
                   </p>
                   <h2 className="mt-2 text-3xl font-bold">
                     A roofing and gutter company people feel good hiring
                   </h2>
-                  <p className="mt-3 leading-7 text-slate-300">
+                  <p className="mt-3 max-w-xl leading-7 text-slate-300">
                     We focus on quality roofing, strong gutter work, clear
                     communication, and treating every customer with respect from
                     the first call to the final cleanup.
@@ -175,6 +174,7 @@ export default function UnderLevelRoofingWebsite() {
         </div>
       </section>
 
+      {/* WHY US */}
       <section className="mx-auto max-w-7xl px-6 py-16 md:px-10">
         <div className="mb-10 text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-300">
@@ -229,47 +229,139 @@ export default function UnderLevelRoofingWebsite() {
       </section>
 
       {/* BACKGROUND MESSAGE SECTION */}
-<section className="relative py-28 text-center">
+      <section className="relative py-28 text-center">
+        <div className="absolute inset-0">
+          <img
+            src="https://tse3.mm.bing.net/th/id/OIP.aJ-qzB9v-kr1Nrq94zEnjAHaEK?rs=1&pid=ImgDetMain&o=7&rm=3"
+            alt="Roof background"
+            className="h-full w-full object-cover"
+          />
+          <div className="absolute inset-0 bg-black/75" />
+        </div>
 
-  {/* Background Image */}
-  <div className="absolute inset-0">
-    <img
-      src="https://tse3.mm.bing.net/th/id/OIP.aJ-qzB9v-kr1Nrq94zEnjAHaEK?rs=1&pid=ImgDetMain&o=7&rm=3"
-      alt="Roof background"
-      className="w-full h-full object-cover"
-    />
+        <div className="relative z-10 mx-auto max-w-3xl px-6">
+          <h2 className="text-4xl font-black text-white md:text-5xl">
+            A Company You Can Trust From Start to Finish
+          </h2>
 
-    {/* Dark overlay */}
-    <div className="absolute inset-0 bg-black/75" />
-  </div>
+          <p className="mt-6 text-lg leading-8 text-slate-200 md:text-xl">
+            We may be a growing company, but we treat every project like it
+            matters — because it does. Your home is important, and we make sure
+            every detail is done right.
+          </p>
 
-  {/* Content */}
-  <div className="relative z-10 max-w-3xl mx-auto px-6">
+          <p className="mt-4 text-lg text-slate-300">
+            From the first call to the final cleanup, we focus on honest work,
+            fair prices, and results you can be proud of.
+          </p>
 
-    <h2 className="text-4xl md:text-5xl font-black text-white">
-      A Company You Can Trust From Start to Finish
-    </h2>
+          <a
+            href="tel:9188009737"
+            className="mt-8 inline-block rounded-xl bg-amber-400 px-8 py-4 text-lg font-bold text-black shadow-xl transition hover:scale-105"
+          >
+            Call Now: (918) 800-9737
+          </a>
+        </div>
+      </section>
 
-    <p className="mt-6 text-lg md:text-xl text-slate-200 leading-8">
-      We may be a growing company, but we treat every project like it matters — because it does.
-      Your home is important, and we make sure every detail is done right.
-    </p>
+      {/* PRODUCTS / SHINGLES */}
+      <section className="mx-auto max-w-7xl px-6 py-16 md:px-10">
+        <div className="mb-10 text-center">
+          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-300">
+            Shingle system we use
+          </p>
+          <h2 className="mt-3 text-4xl font-black md:text-5xl">
+            Premium architectural shingles with strong performance
+          </h2>
+          <p className="mx-auto mt-4 max-w-3xl text-lg leading-8 text-slate-300">
+            We use premium architectural shingles that are built for durability,
+            flexibility, and a cleaner finished look on the roof.
+          </p>
+        </div>
 
-    <p className="mt-4 text-lg text-slate-300">
-      From the first call to the final cleanup, we focus on honest work, fair prices,
-      and results you can be proud of.
-    </p>
+        <div className="grid gap-8 lg:grid-cols-2">
+          <div className="rounded-[2rem] border border-white/10 bg-white/5 p-8 shadow-xl backdrop-blur">
+            <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
+              <img
+                src="/titan-xt.png"
+                alt="Titan XT shingles logo"
+                className="h-auto w-full max-w-[260px] object-contain"
+              />
+              <img
+                src="/stormfighter-flex.png"
+                alt="Stormfighter Flex shingles logo"
+                className="h-auto w-full max-w-[190px] object-contain"
+              />
+            </div>
 
-    <a
-      href="tel:9188009737"
-      className="mt-8 inline-block bg-amber-400 text-black px-8 py-4 rounded-xl font-bold text-lg shadow-xl hover:scale-105 transition"
-    >
-      Call Now: (918) 800-9737
-    </a>
+            <h3 className="mt-8 text-3xl font-bold text-white">
+              Vista® Shingles - Malarkey Roofing Products
+            </h3>
 
-  </div>
-</section>
+            <p className="mt-4 text-lg leading-8 text-slate-200">
+              Malarkey Vista® shingles are premium architectural shingles built
+              for strong performance and long-term durability.
+            </p>
 
+            <p className="mt-4 text-lg leading-8 text-slate-200">
+              They are designed with polymer-modified asphalt for better
+              flexibility, stronger granule hold, and improved toughness in
+              real weather conditions.
+            </p>
+
+            <p className="mt-4 text-lg leading-8 text-slate-200">
+              They are a high-quality option for homeowners who want a roof
+              that looks beautiful, performs well, and gives more confidence in
+              storms.
+            </p>
+
+            <div className="mt-6 grid gap-4 sm:grid-cols-3">
+              <div className="rounded-2xl border border-white/10 bg-slate-950/60 p-4 text-center">
+                <p className="text-sm font-semibold uppercase tracking-wide text-amber-300">
+                  Stronger hold
+                </p>
+                <p className="mt-2 text-sm text-slate-300">
+                  Better durability and cleaner finish
+                </p>
+              </div>
+              <div className="rounded-2xl border border-white/10 bg-slate-950/60 p-4 text-center">
+                <p className="text-sm font-semibold uppercase tracking-wide text-amber-300">
+                  Flexible build
+                </p>
+                <p className="mt-2 text-sm text-slate-300">
+                  Made to perform better in tough weather
+                </p>
+              </div>
+              <div className="rounded-2xl border border-white/10 bg-slate-950/60 p-4 text-center">
+                <p className="text-sm font-semibold uppercase tracking-wide text-amber-300">
+                  Premium look
+                </p>
+                <p className="mt-2 text-sm text-slate-300">
+                  Architectural style with beautiful color choices
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="rounded-[2rem] border border-white/10 bg-white/5 p-6 shadow-xl backdrop-blur">
+            <img
+              src="/malarkey-colors.jpg"
+              alt="Malarkey shingle colors"
+              className="w-full rounded-[1.5rem] object-cover"
+            />
+            <p className="mt-5 text-lg font-bold text-white">
+              Color options we can help you choose from
+            </p>
+            <p className="mt-3 leading-7 text-slate-300">
+              We can help customers pick a color that fits the home, the trim,
+              and the overall style they want — from darker, richer tones to
+              warmer natural blends.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* REAL RESULTS */}
       <section className="mx-auto max-w-7xl px-6 py-16 md:px-10">
         <div className="mb-10 flex flex-col items-center justify-between gap-4 text-center md:flex-row md:text-left">
           <div>
@@ -311,6 +403,7 @@ export default function UnderLevelRoofingWebsite() {
         </div>
       </section>
 
+      {/* BEFORE / AFTER */}
       <section className="mx-auto max-w-7xl px-6 py-16 md:px-10">
         <div className="mb-10 text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-300">
@@ -397,6 +490,7 @@ export default function UnderLevelRoofingWebsite() {
         </div>
       </section>
 
+      {/* MATERIALS */}
       <section className="mx-auto max-w-6xl px-6 py-16 md:px-10">
         <div className="rounded-[2rem] border border-amber-300/20 bg-gradient-to-r from-amber-400/15 to-sky-400/10 p-8 shadow-2xl backdrop-blur">
           <div className="grid gap-8 lg:grid-cols-2 lg:items-center">
@@ -439,7 +533,7 @@ export default function UnderLevelRoofingWebsite() {
               </p>
             </div>
 
-            <div className="overflow-hidden rounded-[1.75rem] border border-white/10 bg-black shadow-xl p-6">
+            <div className="overflow-hidden rounded-[1.75rem] border border-white/10 bg-slate-950 shadow-xl p-6">
               <div className="flex min-h-[280px] items-center justify-center">
                 <img
                   src="/logo.png"
@@ -452,6 +546,7 @@ export default function UnderLevelRoofingWebsite() {
         </div>
       </section>
 
+      {/* SERVICE AREA */}
       <section className="mx-auto max-w-7xl px-6 py-16 md:px-10">
         <div className="mb-10 text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-300">
@@ -480,6 +575,7 @@ export default function UnderLevelRoofingWebsite() {
         </div>
       </section>
 
+      {/* CUSTOMER CONFIDENCE */}
       <section className="mx-auto max-w-7xl px-6 py-16 md:px-10">
         <div className="mb-10 text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-300">
@@ -529,6 +625,7 @@ export default function UnderLevelRoofingWebsite() {
         </div>
       </section>
 
+      {/* FINAL CTA */}
       <section id="estimate" className="mx-auto max-w-5xl px-6 pb-20 md:px-10">
         <div className="rounded-[2rem] border border-amber-300/20 bg-gradient-to-r from-amber-400/20 to-sky-400/15 p-10 text-center shadow-2xl">
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-200">
