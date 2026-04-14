@@ -512,7 +512,7 @@ export default function UnderLevelRoofingWebsite() {
             <img
   src="/before.after.roof.jpeg"
   alt="Roof before and after example"
-  className="h-80 w-full object-cover"
+  className="w-full object-contain bg-black"
 />
             <div className="p-6">
               <h3 className="text-2xl font-bold text-white">
@@ -529,7 +529,7 @@ export default function UnderLevelRoofingWebsite() {
             <img
               src="https://roofhousepedia.com/wp-content/uploads/2023/06/Before-and-After-Roof-Replacement-1024x683.jpg"
               alt="Roof replacement before and after"
-              className="h-80 w-full object-cover"
+              className="w-full object-contain bg-black"
             />
             <div className="p-6">
               <h3 className="text-2xl font-bold text-white">
@@ -546,7 +546,7 @@ export default function UnderLevelRoofingWebsite() {
             <img
   src="/before.after.roof2.jpeg"
   alt="Roof replacement before and after"
-  className="h-80 w-full object-cover"
+  className="w-full object-contain bg-black"
             />
             <div className="p-6">
               <h3 className="text-2xl font-bold text-white">
@@ -563,7 +563,7 @@ export default function UnderLevelRoofingWebsite() {
             <img
   src="/before.after.roof.3.jpeg"
   alt="Roofing before and after"
-  className="h-80 w-full object-cover"
+  className="w-full object-contain bg-black"
 />
             <div className="p-6">
               <h3 className="text-2xl font-bold text-white">
