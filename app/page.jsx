@@ -527,7 +527,7 @@ export default function UnderLevelRoofingWebsite() {
 
           <div className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/5 shadow-xl">
             <img
-              src="https://roofhousepedia.com/wp-content/uploads/2023/06/Before-and-After-Roof-Replacement-1024x683.jpg"
+              src="/before.after.roof4.jpeg"
               alt="Roof replacement before and after"
               className="w-full object-contain bg-black"
             />
