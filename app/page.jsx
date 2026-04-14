@@ -387,7 +387,7 @@ export default function UnderLevelRoofingWebsite() {
           className="hidden"
         />
         <img
-          src="/malarkey-colors.jpg"
+          src="/malarkey-colors.png"
           alt="Malarkey Vista shingle colors"
           className="h-auto w-full max-w-[250px] rounded-xl object-cover"
         />
@@ -442,7 +442,7 @@ export default function UnderLevelRoofingWebsite() {
     </p>
 
     <img
-      src="/malarkey-colors.jpg"
+      src="/malarkey-colors2.png"
       alt="Malarkey shingle color options"
       className="mt-6 w-full rounded-[1.5rem] object-cover"
     />
