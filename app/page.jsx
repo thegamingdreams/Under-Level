@@ -833,8 +833,6 @@ export default function UnderLevelRoofingWebsite() {
           <option value="Roofing">Roofing</option>
           <option value="Gutters">Gutters</option>
           <option value="Roofing and Gutters">Roofing and Gutters</option>
-          <option value="Insurance Claim Help">Insurance Claim Help</option>
-          <option value="Financing">Financing</option>
         </select>
       </div>
 
