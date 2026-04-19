@@ -239,6 +239,91 @@ export default function UnderLevelRoofingWebsite() {
       </section>
 
       {/* BACKGROUND MESSAGE SECTION */}
+      {/* PREMIUM ROOFING GALLERY */}
+<section className="mx-auto max-w-7xl px-6 py-16 md:px-10">
+  <div className="mb-10 text-center">
+    <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-300">
+      Premium roofing inspiration
+    </p>
+    <h2 className="mt-3 text-4xl font-black md:text-5xl">
+      Beautiful roofing styles homeowners love
+    </h2>
+    <p className="mx-auto mt-4 max-w-3xl text-lg leading-8 text-slate-300">
+      A roof should not only protect your home — it should also make it look
+      stronger, cleaner, and more beautiful.
+    </p>
+  </div>
+
+  <div className="grid gap-8 md:grid-cols-2">
+    {/* IMAGE 1 */}
+    <div className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/5 shadow-xl">
+      <img
+        src="https://certainteed.widen.net/content/k9mhngpdap/web/grandmanor-gasl-A11-house-dml.tif?crop=yes&k=c&w=960&h=640&itok=DnHkkNQG"
+        alt="Premium roofing style 1"
+        className="h-80 w-full object-cover"
+      />
+      <div className="p-6">
+        <h3 className="text-2xl font-bold text-white">
+          Elegant architectural roofing
+        </h3>
+        <p className="mt-3 text-slate-300">
+          A premium look that adds depth, strength, and long-term durability.
+        </p>
+      </div>
+    </div>
+
+    {/* IMAGE 2 */}
+    <div className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/5 shadow-xl">
+      <img
+        src="https://certainteed.widen.net/content/577k2ce2vf/web/GrandManor-stgr-house-drone-0057-dml.tif?crop=yes&k=c&w=960&h=640&itok=DnHkkNQG"
+        alt="Premium roofing style 2"
+        className="h-80 w-full object-cover"
+      />
+      <div className="p-6">
+        <h3 className="text-2xl font-bold text-white">
+          Strong and clean finish
+        </h3>
+        <p className="mt-3 text-slate-300">
+          Clean lines and a solid finish that improves curb appeal instantly.
+        </p>
+      </div>
+    </div>
+
+    {/* IMAGE 3 */}
+    <div className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/5 shadow-xl">
+      <img
+        src="https://certainteed.widen.net/content/zy15m8lb1i/web/grandmanor-cosl-bricktudor-house-ctr.tif?crop=yes&k=c&w=960&h=640&itok=DnHkkNQG"
+        alt="Premium roofing style 3"
+        className="h-80 w-full object-cover"
+      />
+      <div className="p-6">
+        <h3 className="text-2xl font-bold text-white">
+          Classic high-end design
+        </h3>
+        <p className="mt-3 text-slate-300">
+          A timeless look that fits beautifully with brick and custom homes.
+        </p>
+      </div>
+    </div>
+
+    {/* IMAGE 4 */}
+    <div className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/5 shadow-xl">
+      <img
+        src="https://certainteed.widen.net/content/hysidvb4ty/web/grandmanor-shfo-A06-house-dml.tif?crop=yes&k=c&w=960&h=640&itok=DnHkkNQG"
+        alt="Premium roofing style 4"
+        className="h-80 w-full object-cover"
+      />
+      <div className="p-6">
+        <h3 className="text-2xl font-bold text-white">
+          Luxury roof appearance
+        </h3>
+        <p className="mt-3 text-slate-300">
+          Built for durability while giving your home a premium finish.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
       <section className="relative py-28 text-center">
         <div className="absolute inset-0">
           <img
