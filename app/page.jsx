@@ -86,6 +86,7 @@ export default function UnderLevelRoofingWebsite() {
               <p className="mt-4 max-w-2xl text-base leading-7 text-slate-200 md:text-lg">
   Feel free to share your best price, and if it works for both of us,
   we’d be happy to take on your project.
+                We also encourage you to review offers from other contractors so you can make the best decision with confidence.”
 </p>
 
               <div className="mt-8 flex flex-col gap-4 sm:flex-row">
