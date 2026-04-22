@@ -872,9 +872,13 @@ export default function UnderLevelRoofingWebsite() {
     <form
   action="https://formspree.io/f/mnjlnwep"
   method="POST"
+  className="grid gap-5 md:grid-cols-2"
 >
-  <input type="hidden" name="_redirect" value="https://underlevelconstruction.com/thank-you" />
-      className="grid gap-5 md:grid-cols-2"
+  <input
+    type="hidden"
+    name="_redirect"
+    value="https://underlevelconstruction.com/thank-you"
+  />
     >
       <div>
         <label className="mb-2 block text-sm font-semibold text-slate-200">
