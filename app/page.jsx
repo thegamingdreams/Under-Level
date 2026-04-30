@@ -610,7 +610,7 @@ export default function UnderLevelRoofingWebsite() {
         <div className="grid gap-8 lg:grid-cols-2">
           <div className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/5 shadow-xl">
             <img
-  src="/before.after.roof.jpeg"
+  src="/before1.png"
   alt="Roof before and after example"
   className="w-full object-contain bg-black"
 />
@@ -627,7 +627,7 @@ export default function UnderLevelRoofingWebsite() {
 
           <div className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/5 shadow-xl">
             <img
-              src="/before.after.roof4.jpeg"
+              src="/before2.png"
               alt="Roof replacement before and after"
               className="w-full object-contain bg-black"
             />
@@ -644,7 +644,7 @@ export default function UnderLevelRoofingWebsite() {
 
           <div className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/5 shadow-xl">
             <img
-  src="/before.after.roof2.jpeg"
+  src="/before3.png"
   alt="Roof replacement before and after"
   className="w-full object-contain bg-black"
             />
@@ -661,7 +661,7 @@ export default function UnderLevelRoofingWebsite() {
 
           <div className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/5 shadow-xl">
             <img
-  src="/before.after.roof.3.jpeg"
+  src="/before4.png"
   alt="Roofing before and after"
   className="w-full object-contain bg-black"
 />
