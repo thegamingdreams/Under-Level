@@ -263,7 +263,7 @@ export default function UnderLevelRoofingWebsite() {
     {/* IMAGE 1 */}
     <div className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/5 shadow-xl">
       <img
-        src="https://certainteed.widen.net/content/k9mhngpdap/web/grandmanor-gasl-A11-house-dml.tif?crop=yes&k=c&w=960&h=640&itok=DnHkkNQG"
+        src="/roofing.png"
         alt="Premium roofing style 1"
         className="h-80 w-full object-cover"
       />
@@ -280,7 +280,7 @@ export default function UnderLevelRoofingWebsite() {
     {/* IMAGE 2 */}
     <div className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/5 shadow-xl">
       <img
-        src="https://certainteed.widen.net/content/577k2ce2vf/web/GrandManor-stgr-house-drone-0057-dml.tif?crop=yes&k=c&w=960&h=640&itok=DnHkkNQG"
+        src="/roofing2.png"
         alt="Premium roofing style 2"
         className="h-80 w-full object-cover"
       />
@@ -297,7 +297,7 @@ export default function UnderLevelRoofingWebsite() {
     {/* IMAGE 3 */}
     <div className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/5 shadow-xl">
       <img
-        src="https://certainteed.widen.net/content/zy15m8lb1i/web/grandmanor-cosl-bricktudor-house-ctr.tif?crop=yes&k=c&w=960&h=640&itok=DnHkkNQG"
+        src="/roofing3.png"
         alt="Premium roofing style 3"
         className="h-80 w-full object-cover"
       />
@@ -314,7 +314,7 @@ export default function UnderLevelRoofingWebsite() {
     {/* IMAGE 4 */}
     <div className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/5 shadow-xl">
       <img
-        src="https://certainteed.widen.net/content/hysidvb4ty/web/grandmanor-shfo-A06-house-dml.tif?crop=yes&k=c&w=960&h=640&itok=DnHkkNQG"
+        src="/roofing4.png"
         alt="Premium roofing style 4"
         className="h-80 w-full object-cover"
       />
