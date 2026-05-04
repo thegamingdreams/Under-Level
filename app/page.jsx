@@ -137,7 +137,7 @@ export default function UnderLevelRoofingWebsite() {
               <div className="overflow-hidden rounded-[2rem] border border-white/10 bg-gradient-to-br from-slate-950 to-slate-900 shadow-2xl backdrop-blur-xl md:col-span-2">
                 <div className="flex flex-col items-center justify-center bg-slate-950 px-6 pb-8 pt-10 text-center">
                   <img
-                    src="/underlevellogo.png"
+                    src="/logo.png"
                     alt="Under Level Roofing logo"
                     className="h-auto max-h-[230px] w-full object-contain"
                   />
