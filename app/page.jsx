@@ -137,7 +137,7 @@ export default function UnderLevelRoofingWebsite() {
               <div className="overflow-hidden rounded-[2rem] border border-white/10 bg-gradient-to-br from-slate-950 to-slate-900 shadow-2xl backdrop-blur-xl md:col-span-2">
                 <div className="flex flex-col items-center justify-center bg-slate-950 px-6 pb-8 pt-10 text-center">
                   <img
-                    src="/logo.png"
+                    src="/underlevellogo.png"
                     alt="Under Level Roofing logo"
                     className="h-auto max-h-[230px] w-full object-contain"
                   />
@@ -482,7 +482,7 @@ export default function UnderLevelRoofingWebsite() {
     <div className="rounded-[2rem] border border-white/10 bg-white/5 p-8 shadow-xl backdrop-blur">
       <div className="flex min-h-[110px] items-center justify-center">
         <img
-          src="/logo.png"
+          src="/underlevellogo.png"
           alt="Under Level Roofing logo"
           className="hidden"
         />
@@ -724,7 +724,7 @@ export default function UnderLevelRoofingWebsite() {
             <div className="overflow-hidden rounded-[1.75rem] border border-white/10 bg-slate-950 shadow-xl p-6">
               <div className="flex min-h-[280px] items-center justify-center">
                 <img
-                  src="/logo.png"
+                  src="/underlevellogo.png"
                   alt="Under Level Roofing logo"
                   className="h-auto max-h-[320px] w-full object-contain"
                 />
